@@ -1,0 +1,34 @@
+{
+    "name": "ontimetools/processor",
+    "description": "Axosoft's OnTime API data processor",
+    "keywords": [
+        "OnTime",
+        "Axosoft"
+    ],
+    "homepage": "http://www.aroy.fr",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Alexandre ROY",
+            "homepage": "https://github.com/ontimetools/processor/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ontimetools/api-sdk": "v1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*",
+        "squizlabs/php_codesniffer": "1.5.*",
+        "ivoba/stop": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
